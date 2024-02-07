@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20240207 23:09:38.541" rpa="false" schemaversion="4">
+<suite id="s1" name="Project 2-master-2" source="C:\Users\Thana\Desktop\TermPojectSQA\Project_2-master-2\Project_2-master-2">
+<suite id="s1-s1" name="Robot" source="C:\Users\Thana\Desktop\TermPojectSQA\Project_2-master-2\Project_2-master-2\robot">
+<suite id="s1-s1-s1" name="Test" source="C:\Users\Thana\Desktop\TermPojectSQA\Project_2-master-2\Project_2-master-2\robot\test.robot">
+<test id="s1-s1-s1-t1" name="TC_Login01" line="12">
+<kw name="Open Browser To Login" library="resouce">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${LOGIN URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240207 23:09:38.886" level="INFO">Opening browser 'firefox' to base url 'http://127.0.0.1:8000/login'.</msg>
+<msg timestamp="20240207 23:09:52.502" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-86.png"&gt;&lt;img src="selenium-screenshot-86.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20240207 23:09:52.502" level="FAIL">WebDriverException: Message: Reached error page: about:neterror?e=connectionFailure&amp;u=http%3A//127.0.0.1%3A8000/login&amp;c=UTF-8&amp;d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20127.0.0.1%3A8000.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:191:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:800:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:324:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+</msg>
+<status status="FAIL" starttime="20240207 23:09:38.885" endtime="20240207 23:09:52.507"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20240207 23:09:52.507" endtime="20240207 23:09:52.507"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>${DELAY}</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="NOT RUN" starttime="20240207 23:09:52.508" endtime="20240207 23:09:52.508"/>
+</kw>
+<status status="FAIL" starttime="20240207 23:09:38.885" endtime="20240207 23:09:52.508"/>
+</kw>
+<kw name="Input username" library="resouce">
+<arg>admin.test@gmail.com</arg>
+<status status="NOT RUN" starttime="20240207 23:09:52.509" endtime="20240207 23:09:52.509"/>
+</kw>
+<kw name="Input password" library="resouce">
+<arg>12345678</arg>
+<status status="NOT RUN" starttime="20240207 23:09:52.509" endtime="20240207 23:09:52.509"/>
+</kw>
+<kw name="Submit Login" library="resouce">
+<status status="NOT RUN" starttime="20240207 23:09:52.509" endtime="20240207 23:09:52.509"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20240207 23:09:52.509" endtime="20240207 23:09:52.509"/>
+</kw>
+<kw name="Dashboard Page Should Be Open" library="resouce">
+<status status="NOT RUN" starttime="20240207 23:09:52.509" endtime="20240207 23:09:52.509"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240207 23:09:52.510" endtime="20240207 23:09:55.304"/>
+</kw>
+<status status="FAIL" starttime="20240207 23:09:38.884" endtime="20240207 23:09:55.304">WebDriverException: Message: Reached error page: about:neterror?e=connectionFailure&amp;u=http%3A//127.0.0.1%3A8000/login&amp;c=UTF-8&amp;d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20127.0.0.1%3A8000.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:191:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:800:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:324:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+</status>
+</test>
+<doc>resouce flie wih reusable keyword and varibles.</doc>
+<status status="FAIL" starttime="20240207 23:09:38.634" endtime="20240207 23:09:55.307"/>
+</suite>
+<status status="FAIL" starttime="20240207 23:09:38.630" endtime="20240207 23:09:55.310"/>
+</suite>
+<status status="FAIL" starttime="20240207 23:09:38.607" endtime="20240207 23:09:55.312"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Project 2-master-2">Project 2-master-2</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Robot">Project 2-master-2.Robot</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Test">Project 2-master-2.Robot.Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

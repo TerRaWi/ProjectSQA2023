@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20231010 19:22:08.584" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\User\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Browser To Test Page">
+<msg timestamp="20231010 19:22:09.417" level="FAIL">No keyword with name 'Open Browser To Test Page' found.</msg>
+<status status="FAIL" starttime="20231010 19:22:09.417" endtime="20231010 19:22:09.417"/>
+</kw>
+<kw name="Input Text">
+<arg>id:ac_name</arg>
+<arg>Example Book Name</arg>
+<status status="NOT RUN" starttime="20231010 19:22:09.418" endtime="20231010 19:22:09.418"/>
+</kw>
+<kw name="Input Text">
+<arg>id:ac_sourcetitle</arg>
+<arg>Example Source Title</arg>
+<status status="NOT RUN" starttime="20231010 19:22:09.419" endtime="20231010 19:22:09.419"/>
+</kw>
+<kw name="Input Text">
+<arg>id:ac_year</arg>
+<arg>2023-10-10</arg>
+<status status="NOT RUN" starttime="20231010 19:22:09.420" endtime="20231010 19:22:09.420"/>
+</kw>
+<kw name="Input Text">
+<arg>id:ac_page</arg>
+<arg>100</arg>
+<status status="NOT RUN" starttime="20231010 19:22:09.420" endtime="20231010 19:22:09.421"/>
+</kw>
+<kw name="Click Element">
+<arg>id:submitButton</arg>
+<status status="NOT RUN" starttime="20231010 19:22:09.422" endtime="20231010 19:22:09.422"/>
+</kw>
+<kw name="Wait Until Page Contains">
+<arg>Record Inserted Successfully.</arg>
+<status status="NOT RUN" starttime="20231010 19:22:09.423" endtime="20231010 19:22:09.423"/>
+</kw>
+<status status="PASS" starttime="20231010 19:22:08.605" endtime="20231010 19:22:12.859"/>
+</kw>
+<status status="PASS" starttime="20231010 19:22:08.605" endtime="20231010 19:22:12.859"/>
+</test>
+<status status="PASS" starttime="20231010 19:22:08.586" endtime="20231010 19:22:12.860"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
